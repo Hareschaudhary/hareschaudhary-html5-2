@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.alic {
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #21243d;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 4px black;
+}
+
+/* ***************top-header***************** */
+
+.top-header {
+    background-color: #21243d;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.top-navbar {
+    padding: 20px 0;
+}
+
+.top-hed-logo {
+    width: 210px;
+}
+
+.top-hed-logo img {
+    width: 100%;
+}
+
+.top-hed-link li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.top-hed-link a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 5px 15px;
+    padding: 15px 20px;
+}
+
+.top-hed-link a:hover {
+    box-shadow: 0px 0px 10px white;
+    outline: 1px solid white;
+}
+
+.top-hed-icon i {
+    font-size: 30px;
+    color: white;
+}
+
+/* ****************sec-one********************** */
+
+#sec-one {
+    background-image: url(./img/sec-one-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 90px;
+    background-position: top;
+    /* height: 100vh; */
+}
+
+.sec-one-maincontant {
+    padding: 100px 0;
+}
+
+.sec-one-maincontant h3 {
+    padding-top: 100px;
+    font-size: 125px;
+    color: #ffffff;
+    font-weight: 700;
+
+}
+
+.sec-one-maincontant p {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 50;
+    width: 50%;
+    margin: 50px 0;
+}
+
+.sec-one-maincontant button {
+    margin-bottom: 50px;
+}
+
+/* ****************sec-two********************** */
+#sec-two {
+    background-image: url(./img/sec-two-bg-img.png);
+    color: white;
+}
+
+.sec-two-row1 h3 {
+    text-align: center;
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 70px 0 30px 0;
+}
+
+.sec-two-row1 p {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 300px 0 300px;
+}
+
+.sec-two-row2 {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.sec-two-row2 p {
+    width: 254px;
+}
+
+.sec-two-row2 img {
+    border-radius: 50%;
+}
+
+.sec-two-row2 h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+
+.sec-two-row2 p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.sec-two-con {
+    position: relative;
+}
+
+.shape1 {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    background: linear-gradient(green, white, red);
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+
+}
+
+.shape2 {
+    position: absolute;
+    top: 500px;
+    right: 300px;
+    background: linear-gradient(red, green, blue);
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+}
+
+.shape2 {
+    position: absolute;
+    top: 500px;
+    right: 300px;
+
+}
+
+.shape3 {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+
+}
+
+.shape4 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+.shape5 {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+
+}
+
+.shape6 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+/* ****************sec-three********************** */
+
+.round {
+    background: linear-gradient(#21243d, #ffffff, pink);
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+}
+
+#sec-three {
+    background-image: url(./img/sec-three-bg-img.png);
+
+}
+
+.sec-three-maincontant {
+    padding: 80px 0px;
+}
+
+.sec-three-img {
+    width: 715px;
+}
+
+.sec-three-img img {
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    top: 180px;
+    left: 0;
+
+}
+
+.sec-three-text {
+    width: 715px;
+    margin-top: 100px;
+    padding-top: 80px;
+}
+
+.sec-three-text .button {
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+.sec-three-text h3 {
+    font-size: 75px;
+    font-weight: 900;
+
+}
+
+.sec-three-text p {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 50px 0;
+}
+
+.sec-three-con {
+    position: relative;
+}
+
+.sec-three-round1 {
+    position: absolute;
+    top: 100px;
+    left: 360px;
+    z-index: 1;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px black;
+}
+
+.sec-three-round2 {
+    position: absolute;
+    top: 100px;
+    left: 380px;
+    z-index: 1;
+
+
+}
+
+.sec-three-dots1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.sec-three-dots2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+.sec-three-line1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+.sec-three-line2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+/* ****************sec-four********************** */
+#sec-four {
+    background-color: #21243d;
+}
+
+.sec-four-maincontant {
+    padding: 100px 0 0 0;
+    color: #ffffff;
+}
+
+.sec-four-row1 {
+    text-align: center;
+}
+
+.sec-four-row1 h3 {
+    font-size: 62px;
+    font-weight: 700;
+}
+
+.sec-four-row1 p {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 50px 300px;
+}
+
+.sec-four-row2 {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.sec-four-row2 div {
+    border: 7px solid white;
+    padding: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+}
+
+.sec-four-row2 h3 {
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sec-four-row2 h4 {
+    font-size: 43px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sec-four-con {
+    position: relative;
+}
+
+.sec-four-dot1 {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.sec-four-dot2 {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.sec-four-line1 {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+}
+
+.sec-four-line2 {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+/* ****************sec-five********************** */
+
+#sec-five {
+    background-color: #ffd17e;
+}
+
+.sec-five-col1 h3 {
+    padding-top: 100px;
+    margin: 100px 0;
+    font-size: 75px;
+    color: #21243d;
+    font-weight: 700;
+}
+
+.sec-five-col1 p {
+    font-size: 30px;
+    color: #21243d;
+    font-weight: 400;
+    width: 700px;
+    margin: 0 0 50px 0;
+}
+
+.sec-five-col1 #buttu {
+    padding-bottom: 100px;
+}
+
+.sec-five-col1 button {
+    margin-bottom: 100px;
+}
+
+.sec-five-con {
+    position: relative;
+}
+
+.sec-five-col2 img {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.five-round1 {
+    position: absolute;
+    bottom: 150px;
+    right: 350px;
+    z-index: 1;
+}
+
+.five-round2 {
+    position: absolute;
+    top: 150px;
+    right: 400px;
+    z-index: 1;
+}
+
+.five-dots1 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.five-dots2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+.five-dots3 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+.five-dots4 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+/* ****************sec-six********************** */
+#sec-six {
+    background: linear-gradient(rgba(25, 35, 53, 0.9), rgba(25, 35, 53, 0.9)), url(./img/sec-six-bg-img1.png);
+    color: white;
+}
+
+.sec-six-row1 img {
+    display: block;
+    margin: 50px auto 0px auto;
+    border-radius: 50%;
+}
+
+.sec-six-img {
+    padding: 100px 0 50px 0;
+
+}
+
+.sec-six-row1 {
+    text-align: center;
+}
+
+.sec-six-row1 p {
+    margin: 0 250px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.sec-six-row1 h3 {
+    padding: 20px 0px 100px 0px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sec-six-h3 {
+    padding: 0 0 100px 0;
+}
+
+/* ****************sec-seven********************** */
+#sec-seven {
+    background-color: #ffd17e;
+}
+
+.sec-seven-row1 {
+    padding: 100px 0;
+}
+
+.sec-seven-con {
+    position: relative;
+}
+
+.sec-seven-row1 {
+    text-align: center;
+    color: black;
+}
+
+.sec-seven-row1 h3 {
+    font-size: 75px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.sec-seven-row1 p {
+    font-size: 30px;
+    font-weight: 400;
+    padding: 5px 0;
+    margin: 0 300px;
+}
+
+.sec-seven-row1 input {
+    font-size: 25px;
+    padding: 5px 50px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    outline: none;
+}
+
+.sec-seven-row1 button {
+    font-size: 25px;
+    padding: 5px 50px;
+    border-radius: 20px;
+    position: absolute;
+    right: 70px;
+    background-color: #21243d;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.sec-seven-row1 .search {
+    position: relative;
+    width: 50%;
+    margin: 60px auto;
+    margin-bottom: 100px;
+    text-align: left;
+    padding-left: 70px;
+    padding-bottom: 100px;
+}
+
+.sex-seven-round1 {
+    position: absolute;
+    bottom: 0;
+}
+
+.sex-seven-round2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sex-seven-dots1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sex-seven-dots2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* ****************sec-eight********************** */
+
+
+#sec-eight {
+    background-color: black;
+    color: white;
+}
+
+.sec-eight-row1 {
+    padding: 100px 0;
+}
+
+.sec-eight-col {
+    width: 20%;
+    padding: 50px 0;
+}
+
+.sec-eight-col h3 {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.sec-eight-col p {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px 0;
+
+}
+
+.sec-eight-col .icon {
+    padding: 30px 0;
+    font-size: 30px;
+}
+
+.sec-eight-col i {
+    padding-right: 10px;
+}
+
+.sec-eight-col li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.sec-eight-col a {
+    text-decoration: none;
+    color: white;
+}
+
+.sec-eight-col a:hover {
+    font-size: 18px;
+    text-shadow: 0px 0px 5px white;
+    text-decoration: underline;
+}
+
+.top-col {
+    width: 40%;
+    margin-right: 100px;
+
+}
