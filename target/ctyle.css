@@ -26,6 +26,10 @@ section {
      background-position: right;
     
 }
+header{
+    position: relative;
+    z-index: 1;
+}
 
 .container {
     width: 90%;
@@ -91,6 +95,7 @@ nav i {
 
 
 .sec-one-main{
+   
     padding: 100px 0 0 0;
     position: relative;
     z-index: 1;
@@ -171,4 +176,13 @@ border: none;
     position: absolute;
     top: 0;
     left: 0;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+   background-image:url(./img/photo.png);
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    background-repeat: no-repeat;
 }
