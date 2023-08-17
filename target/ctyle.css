@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@500&family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-50{
+    width: 50%;
+}
+
+section {
+    width: 100%;
+    
+    background:url(./img/bg-img.png),linear-gradient(155deg,
+     rgba(117, 118, 154, 0.49999999999999994) 0%,
+     rgba(31, 31, 33, 0.9999999999999999) 100%);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: right;
+    
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+    /* border: 2px solid white; */
+    padding: 15px 5px;
+}
+
+.link-one li {
+    padding: 5px 0 5px 80px;
+    margin-left: 38px;
+}
+
+nav button {
+    margin: 5px 70px;
+    display: inline-block;
+    padding: 8px 25px;
+    background-color: #ffcf00;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    /* border: 2px solid white; */
+}
+
+nav i {
+    color: white;
+}
+
+.logo h3 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-transform: uppercase;
+}
+
+
+
+.sec-one-main{
+    padding: 100px 0 0 0;
+    position: relative;
+    z-index: 1;
+}
+.sec-one-main h3{
+    font-size: 52px;
+    color: #ffcf00;
+    font-weight: 500;
+    font-family: "Oswald";
+    z-index: 1;
+}
+.sec-one-main h4{
+    font-size: 49px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Oswald";
+    width: 50%;
+}
+.sec-one-main p{
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    width: 53%;
+    line-height: 28px;
+    padding: 20px 0;
+}
+.sec-one-main button{
+padding: 6px 24px;
+font-size: 20px;
+background-color: #ffcf00;
+border-radius: 20px;
+border: none;
+
+}
+.sec-one-main .icon i{
+    padding: 50px 20px 0px 0;
+    color: white;
+    font-size: 20px;
+}
+.bg-img{
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(./img/_Compound\ Path_.png);
+    width: 104%;
+    height: 107vh;
+    background-repeat: no-repeat;
+    
+}
+.col-50 img{
+    border-radius: 250px 0 0 250px;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 900px;
+    height: 510px;
+    box-shadow: 0px 0px 20px black;
+}
+.row1{
+    text-align: center;
+    padding: 50px 0;
+    /* background-color: black;
+    border: 2px solid red; */
+
+}
+.row1 input{
+ width: 15px;
+ height: 15px;
+ margin: 0 40px;
+ display: inline-block;
+ 
+}
+.line{
+    height:107vh ;
+    width: 30px;
+    background-color: #ffcf00;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
